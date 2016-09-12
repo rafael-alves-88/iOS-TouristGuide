@@ -1,0 +1,536 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ACF4E3201C943FFA001E281D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF4E31F1C943FFA001E281D /* AppDelegate.swift */; };
+		ACF4E3251C943FFB001E281D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACF4E3231C943FFB001E281D /* Main.storyboard */; };
+		ACF4E3271C943FFB001E281D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ACF4E3261C943FFB001E281D /* Assets.xcassets */; };
+		ACF4E32A1C943FFB001E281D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACF4E3281C943FFB001E281D /* LaunchScreen.storyboard */; };
+		ACF4E3351C943FFB001E281D /* RAAGuia_TurismoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF4E3341C943FFB001E281D /* RAAGuia_TurismoTests.swift */; };
+		ACF4E3401C943FFB001E281D /* RAAGuia_TurismoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF4E33F1C943FFB001E281D /* RAAGuia_TurismoUITests.swift */; };
+		ACF4E34E1C9441D0001E281D /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACF4E34D1C9441D0001E281D /* MapKit.framework */; };
+		ACF4E3501C944202001E281D /* RAAMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF4E34F1C944202001E281D /* RAAMapViewController.swift */; };
+		ACF4E3541C94452B001E281D /* RAAPlace.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF4E3531C94452B001E281D /* RAAPlace.swift */; };
+		ACF4E3581C944598001E281D /* RAACoordinate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF4E3571C944598001E281D /* RAACoordinate.swift */; };
+		ACF4E35A1C94524F001E281D /* RAAPlaceAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF4E3591C94524F001E281D /* RAAPlaceAnnotation.swift */; };
+		ACF4E35C1C9459DE001E281D /* RAAPlaceAnnotationMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF4E35B1C9459DE001E281D /* RAAPlaceAnnotationMap.swift */; };
+		ACF4E35E1C946687001E281D /* RAADetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF4E35D1C946687001E281D /* RAADetailViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ACF4E3311C943FFB001E281D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ACF4E3141C943FFA001E281D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ACF4E31B1C943FFA001E281D;
+			remoteInfo = RAAGuia_Turismo;
+		};
+		ACF4E33C1C943FFB001E281D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ACF4E3141C943FFA001E281D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ACF4E31B1C943FFA001E281D;
+			remoteInfo = RAAGuia_Turismo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		ACF4E31C1C943FFA001E281D /* RAAGuia_Turismo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RAAGuia_Turismo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACF4E31F1C943FFA001E281D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		ACF4E3241C943FFB001E281D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ACF4E3261C943FFB001E281D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ACF4E3291C943FFB001E281D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		ACF4E32B1C943FFB001E281D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ACF4E3301C943FFB001E281D /* RAAGuia_TurismoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RAAGuia_TurismoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACF4E3341C943FFB001E281D /* RAAGuia_TurismoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RAAGuia_TurismoTests.swift; sourceTree = "<group>"; };
+		ACF4E3361C943FFB001E281D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ACF4E33B1C943FFB001E281D /* RAAGuia_TurismoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RAAGuia_TurismoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACF4E33F1C943FFB001E281D /* RAAGuia_TurismoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RAAGuia_TurismoUITests.swift; sourceTree = "<group>"; };
+		ACF4E3411C943FFB001E281D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ACF4E34D1C9441D0001E281D /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		ACF4E34F1C944202001E281D /* RAAMapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RAAMapViewController.swift; sourceTree = "<group>"; };
+		ACF4E3531C94452B001E281D /* RAAPlace.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RAAPlace.swift; sourceTree = "<group>"; };
+		ACF4E3571C944598001E281D /* RAACoordinate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RAACoordinate.swift; path = ../RAACoordinate.swift; sourceTree = "<group>"; };
+		ACF4E3591C94524F001E281D /* RAAPlaceAnnotation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RAAPlaceAnnotation.swift; sourceTree = "<group>"; };
+		ACF4E35B1C9459DE001E281D /* RAAPlaceAnnotationMap.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RAAPlaceAnnotationMap.swift; sourceTree = "<group>"; };
+		ACF4E35D1C946687001E281D /* RAADetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RAADetailViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ACF4E3191C943FFA001E281D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACF4E34E1C9441D0001E281D /* MapKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACF4E32D1C943FFB001E281D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACF4E3381C943FFB001E281D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ACF4E3131C943FFA001E281D = {
+			isa = PBXGroup;
+			children = (
+				ACF4E34D1C9441D0001E281D /* MapKit.framework */,
+				ACF4E31E1C943FFA001E281D /* RAAGuia_Turismo */,
+				ACF4E3331C943FFB001E281D /* RAAGuia_TurismoTests */,
+				ACF4E33E1C943FFB001E281D /* RAAGuia_TurismoUITests */,
+				ACF4E31D1C943FFA001E281D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ACF4E31D1C943FFA001E281D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ACF4E31C1C943FFA001E281D /* RAAGuia_Turismo.app */,
+				ACF4E3301C943FFB001E281D /* RAAGuia_TurismoTests.xctest */,
+				ACF4E33B1C943FFB001E281D /* RAAGuia_TurismoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ACF4E31E1C943FFA001E281D /* RAAGuia_Turismo */ = {
+			isa = PBXGroup;
+			children = (
+				ACF4E3571C944598001E281D /* RAACoordinate.swift */,
+				ACF4E31F1C943FFA001E281D /* AppDelegate.swift */,
+				ACF4E34F1C944202001E281D /* RAAMapViewController.swift */,
+				ACF4E3231C943FFB001E281D /* Main.storyboard */,
+				ACF4E35D1C946687001E281D /* RAADetailViewController.swift */,
+				ACF4E3591C94524F001E281D /* RAAPlaceAnnotation.swift */,
+				ACF4E35B1C9459DE001E281D /* RAAPlaceAnnotationMap.swift */,
+				ACF4E3261C943FFB001E281D /* Assets.xcassets */,
+				ACF4E3281C943FFB001E281D /* LaunchScreen.storyboard */,
+				ACF4E32B1C943FFB001E281D /* Info.plist */,
+				ACF4E3531C94452B001E281D /* RAAPlace.swift */,
+			);
+			path = RAAGuia_Turismo;
+			sourceTree = "<group>";
+		};
+		ACF4E3331C943FFB001E281D /* RAAGuia_TurismoTests */ = {
+			isa = PBXGroup;
+			children = (
+				ACF4E3341C943FFB001E281D /* RAAGuia_TurismoTests.swift */,
+				ACF4E3361C943FFB001E281D /* Info.plist */,
+			);
+			path = RAAGuia_TurismoTests;
+			sourceTree = "<group>";
+		};
+		ACF4E33E1C943FFB001E281D /* RAAGuia_TurismoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				ACF4E33F1C943FFB001E281D /* RAAGuia_TurismoUITests.swift */,
+				ACF4E3411C943FFB001E281D /* Info.plist */,
+			);
+			path = RAAGuia_TurismoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ACF4E31B1C943FFA001E281D /* RAAGuia_Turismo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ACF4E3441C943FFB001E281D /* Build configuration list for PBXNativeTarget "RAAGuia_Turismo" */;
+			buildPhases = (
+				ACF4E3181C943FFA001E281D /* Sources */,
+				ACF4E3191C943FFA001E281D /* Frameworks */,
+				ACF4E31A1C943FFA001E281D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RAAGuia_Turismo;
+			productName = RAAGuia_Turismo;
+			productReference = ACF4E31C1C943FFA001E281D /* RAAGuia_Turismo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ACF4E32F1C943FFB001E281D /* RAAGuia_TurismoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ACF4E3471C943FFB001E281D /* Build configuration list for PBXNativeTarget "RAAGuia_TurismoTests" */;
+			buildPhases = (
+				ACF4E32C1C943FFB001E281D /* Sources */,
+				ACF4E32D1C943FFB001E281D /* Frameworks */,
+				ACF4E32E1C943FFB001E281D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ACF4E3321C943FFB001E281D /* PBXTargetDependency */,
+			);
+			name = RAAGuia_TurismoTests;
+			productName = RAAGuia_TurismoTests;
+			productReference = ACF4E3301C943FFB001E281D /* RAAGuia_TurismoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		ACF4E33A1C943FFB001E281D /* RAAGuia_TurismoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ACF4E34A1C943FFB001E281D /* Build configuration list for PBXNativeTarget "RAAGuia_TurismoUITests" */;
+			buildPhases = (
+				ACF4E3371C943FFB001E281D /* Sources */,
+				ACF4E3381C943FFB001E281D /* Frameworks */,
+				ACF4E3391C943FFB001E281D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ACF4E33D1C943FFB001E281D /* PBXTargetDependency */,
+			);
+			name = RAAGuia_TurismoUITests;
+			productName = RAAGuia_TurismoUITests;
+			productReference = ACF4E33B1C943FFB001E281D /* RAAGuia_TurismoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ACF4E3141C943FFA001E281D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Usuário Convidado";
+				TargetAttributes = {
+					ACF4E31B1C943FFA001E281D = {
+						CreatedOnToolsVersion = 7.2;
+						SystemCapabilities = {
+							com.apple.Maps.iOS = {
+								enabled = 1;
+							};
+						};
+					};
+					ACF4E32F1C943FFB001E281D = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = ACF4E31B1C943FFA001E281D;
+					};
+					ACF4E33A1C943FFB001E281D = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = ACF4E31B1C943FFA001E281D;
+					};
+				};
+			};
+			buildConfigurationList = ACF4E3171C943FFA001E281D /* Build configuration list for PBXProject "RAAGuia_Turismo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ACF4E3131C943FFA001E281D;
+			productRefGroup = ACF4E31D1C943FFA001E281D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ACF4E31B1C943FFA001E281D /* RAAGuia_Turismo */,
+				ACF4E32F1C943FFB001E281D /* RAAGuia_TurismoTests */,
+				ACF4E33A1C943FFB001E281D /* RAAGuia_TurismoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ACF4E31A1C943FFA001E281D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACF4E32A1C943FFB001E281D /* LaunchScreen.storyboard in Resources */,
+				ACF4E3271C943FFB001E281D /* Assets.xcassets in Resources */,
+				ACF4E3251C943FFB001E281D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACF4E32E1C943FFB001E281D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACF4E3391C943FFB001E281D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ACF4E3181C943FFA001E281D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACF4E3581C944598001E281D /* RAACoordinate.swift in Sources */,
+				ACF4E3501C944202001E281D /* RAAMapViewController.swift in Sources */,
+				ACF4E3541C94452B001E281D /* RAAPlace.swift in Sources */,
+				ACF4E35C1C9459DE001E281D /* RAAPlaceAnnotationMap.swift in Sources */,
+				ACF4E3201C943FFA001E281D /* AppDelegate.swift in Sources */,
+				ACF4E35E1C946687001E281D /* RAADetailViewController.swift in Sources */,
+				ACF4E35A1C94524F001E281D /* RAAPlaceAnnotation.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACF4E32C1C943FFB001E281D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACF4E3351C943FFB001E281D /* RAAGuia_TurismoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACF4E3371C943FFB001E281D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACF4E3401C943FFB001E281D /* RAAGuia_TurismoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ACF4E3321C943FFB001E281D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ACF4E31B1C943FFA001E281D /* RAAGuia_Turismo */;
+			targetProxy = ACF4E3311C943FFB001E281D /* PBXContainerItemProxy */;
+		};
+		ACF4E33D1C943FFB001E281D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ACF4E31B1C943FFA001E281D /* RAAGuia_Turismo */;
+			targetProxy = ACF4E33C1C943FFB001E281D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		ACF4E3231C943FFB001E281D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ACF4E3241C943FFB001E281D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ACF4E3281C943FFB001E281D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ACF4E3291C943FFB001E281D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ACF4E3421C943FFB001E281D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ACF4E3431C943FFB001E281D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ACF4E3451C943FFB001E281D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = RAAGuia_Turismo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "fiap.RAAGuia-Turismo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		ACF4E3461C943FFB001E281D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = RAAGuia_Turismo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "fiap.RAAGuia-Turismo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		ACF4E3481C943FFB001E281D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = RAAGuia_TurismoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "fiap.RAAGuia-TurismoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RAAGuia_Turismo.app/RAAGuia_Turismo";
+			};
+			name = Debug;
+		};
+		ACF4E3491C943FFB001E281D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = RAAGuia_TurismoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "fiap.RAAGuia-TurismoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RAAGuia_Turismo.app/RAAGuia_Turismo";
+			};
+			name = Release;
+		};
+		ACF4E34B1C943FFB001E281D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = RAAGuia_TurismoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "fiap.RAAGuia-TurismoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = RAAGuia_Turismo;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		ACF4E34C1C943FFB001E281D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = RAAGuia_TurismoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "fiap.RAAGuia-TurismoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = RAAGuia_Turismo;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ACF4E3171C943FFA001E281D /* Build configuration list for PBXProject "RAAGuia_Turismo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACF4E3421C943FFB001E281D /* Debug */,
+				ACF4E3431C943FFB001E281D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ACF4E3441C943FFB001E281D /* Build configuration list for PBXNativeTarget "RAAGuia_Turismo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACF4E3451C943FFB001E281D /* Debug */,
+				ACF4E3461C943FFB001E281D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		ACF4E3471C943FFB001E281D /* Build configuration list for PBXNativeTarget "RAAGuia_TurismoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACF4E3481C943FFB001E281D /* Debug */,
+				ACF4E3491C943FFB001E281D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		ACF4E34A1C943FFB001E281D /* Build configuration list for PBXNativeTarget "RAAGuia_TurismoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACF4E34B1C943FFB001E281D /* Debug */,
+				ACF4E34C1C943FFB001E281D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ACF4E3141C943FFA001E281D /* Project object */;
+}

@@ -1,0 +1,94 @@
+{
+        "locais": [
+            {
+                "nome": "Museu de Arte de São Paulo",
+                "endereco": "Av. Paulista, 1578 - Bela Vista, São Paulo, SP, Brasil",
+                "imagem": "http://flameworks.com.br/fiap/museudearte.png",
+                "coordenadas": {
+                    "lat": -23.561486,
+                    "lon": -46.655944
+                }
+            },
+            {
+                "nome": "Parque do Ibirapuera",
+                "endereco": "Unidade Avançada Ibirapuera, São Paulo, SP, Brazil",
+                "imagem": "http://flameworks.com.br/fiap/pqibirapuera.png",
+                "coordenadas": {
+                    "lat": -23.587416,
+                    "lon": -46.657634
+                }
+            },
+            {
+                "nome": "Mercado Municipal de São Paulo",
+                "endereco": "R. da Cantareira, 306, São Paulo, SP, Brazil",
+                "imagem": "http://flameworks.com.br/fiap/mercadomunicipal.png",
+                "coordenadas": {
+                    "lat": -23.542153,
+                    "lon": -46.629506
+                }
+            },
+            {
+                "nome": "Catedral da Sé",
+                "endereco": "Praça da Sé, 88, São Paulo, SP, Brazil",
+                "imagem": "http://flameworks.com.br/fiap/catedraldase.png",
+                "coordenadas": {
+                    "lat": -23.551398,
+                    "lon": -46.634482
+                }
+            },
+            {
+                "nome": "Pinacoteca do Estado de São Paulo",
+                "endereco": "Praça da Luz, 2 - Luz, São Paulo, SP, Brazil",
+                "imagem": "http://flameworks.com.br/fiap/pinacotecasaopaulo.png",
+                "coordenadas": {
+                    "lat": -23.534267,
+                    "lon": -46.633925
+                }
+            },
+            {
+                "nome": "Sala São Paulo",
+                "endereco": "Praça Júlio Prestes, 16 - Santa Cecília, São Paulo, SP, Brazil",
+                "imagem": "http://flameworks.com.br/fiap/salasaopaulo.png",
+                "coordenadas": {
+                    "lat": -23.534639,
+                    "lon": -46.639795
+                }
+            },
+            {
+                "nome": "Teatro Municipal",
+                "endereco": "Praça Ramos de Azevedo, s/n - Centro, São Paulo, SP, Brazil",
+                "imagem": "http://flameworks.com.br/fiap/teatromunicipalsaopaulo.png",
+                "coordenadas": {
+                    "lat": -23.545253,
+                    "lon": -46.638686
+                }
+            },
+            {
+                "nome": "Museu do Futebol",
+                "endereco": "Estádio do Pacaembú, São Paulo, SP, Brazil",
+                "imagem": "http://flameworks.com.br/fiap/museufutebol.png",
+                "coordenadas": {
+                    "lat": -23.547622,
+                    "lon": -46.666617
+                }
+            },
+            {
+                "nome": "Terraço Itália",
+                "endereco": "Av. Ipiranga, 344, Centro, São Paulo, SP, Brazil",
+                "imagem": "http://flameworks.com.br/fiap/terracoitalia.png",
+                "coordenadas": {
+                    "lat": -23.545057,
+                    "lon": -46.643451
+                }
+            },
+            {
+                "nome": "Bairro da Liberdade",
+                "endereco": "Praça da Liberdade, São Paulo, SP, Brazil",
+                "imagem": "http://flameworks.com.br/fiap/bairroliberdade.png",
+                "coordenadas": {
+                    "lat": -23.555261,
+                    "lon": -46.635595
+                }
+            }
+        ]
+}
